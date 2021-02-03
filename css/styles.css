@@ -4374,7 +4374,6 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -4387,10 +4386,8 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #fff;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
 }
 
 .card {
