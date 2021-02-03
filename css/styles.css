@@ -11,6 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  --orange: #F8C471;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -3956,6 +3957,7 @@ input[type=button].btn-block {
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
+  color: #000;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3976,6 +3978,7 @@ input[type=button].btn-block {
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
+   color: #000;
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
@@ -4053,6 +4056,7 @@ input[type=button].btn-block {
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
+   color: #000;
 }
 
 .navbar-nav {
@@ -4075,6 +4079,7 @@ input[type=button].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: #fff;
 }
 
 .navbar-collapse {
@@ -10124,7 +10129,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #f8c471;
+  color: #000;
   border: 1px solid #f8c471;
 }
 #mainNav .navbar-toggler:focus {
@@ -10137,7 +10142,7 @@ body {
 }
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
-  outline: none;
+  outline: #000;
   background-color: transparent;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
