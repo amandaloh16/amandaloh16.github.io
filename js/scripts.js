@@ -6,6 +6,11 @@
     (function ($) {
     "use strict"; // Start of use strict
 
+    $('#sendToMe').click(function () {
+        var newEmail = $("#inputEmail").val();
+        location.href = "mailto:siliconcandance@gmail.com?subject=newSub&body=".concat(newEmail);
+    ;
+    });
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
